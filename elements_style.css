@@ -1,0 +1,293 @@
+
+* {
+font-family: Gputeks;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #212633;
+
+}
+
+html {
+font-size: 30px;
+}
+
+h1 {
+font-size: 6rem;
+}
+
+h2 {
+    font-size: 2rem;
+    background-color:#11151d;
+}
+
+p {
+    padding-top: 0.3rem;
+    font-size: 0.5rem;
+    background-color: #11151d;
+    text-shadow: 1px 1px 1px rgba(0, 255, 21, 0.562);
+}
+a{
+    text-decoration: none;
+    color: #103fb8;
+    text-shadow: 1px 1px 1px rgba(0, 255, 21, 0.562);
+}
+body{
+
+    height: 100%;
+}
+header{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding-left: 0;
+    margin-left: 0;
+    border: black;
+    background-color: #11151d;
+    box-shadow: 1 1 1 rgb(44, 80, 197);
+}
+h1{
+    background: linear-gradient(70deg, black -15%, red 50%, white 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 255, 21, 0.562);
+}
+.head-txt{
+    margin: auto;
+    display: block;
+
+    border: black;
+    background-color: #11151d;
+    box-shadow: 1 1 1 rgb(44, 80, 197);
+    width: 70%;
+    border-radius: 30px 30px 1px 1px;
+}
+.head-button{
+    display: block;
+    padding: 10px;
+    height: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 255, 21, 0.562);
+}
+header a{
+    align-items: end;
+}
+
+.elements-cards{
+    margin-top: 5vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-image: url(img/изображение_2024-04-17_172619784.png);
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+}
+.cards{
+    width: 40%;
+    height: 28vh;
+    display: flex;
+    flex-wrap: nowrap;
+    border: solid white;
+    color: white;
+}
+.extra-space{
+    height: 30px;
+    box-shadow: none;
+    background-color: black;
+    margin: 0px 80px;
+}
+.cards img{
+    margin-top: 16%;
+
+}
+.left{
+    width: 20%;
+    text-align: center;
+    box-shadow: 1 1 1 rgb(44, 80, 197);
+ 
+}
+.right{
+    width: 80%;
+    padding: 10px;
+    border: solid white;
+    text-align: center;
+    background-color: #11151d;
+    box-shadow: black 1px 0 10px;
+}
+.left-top{
+    border: solid;
+    height: 50%;
+    background-color: #11151d;
+    box-shadow: black 1px 0 10px;
+}
+.left-bot{
+    border: solid;
+    height: 50%;
+    background-color:#11151d;
+    box-shadow: black 1px 0 10px;
+}
+.card-frost{
+    border-color: white;
+}
+.card-flame, .card-flame div, .card-flame hr{
+    border-color: rgb(167, 23, 23);
+}
+.card-metal, .card-metal div, .card-metal hr{
+    border-color: gray;
+}
+.card-shadow, .card-shadow div, .card-shadow hr{ 
+    border-color: rgb(126, 12, 116);
+}
+.card-thunder, .card-thunder div, .card-thunder hr{ 
+    border-color: rgb(208, 235, 72);
+}
+.card-wind, .card-wind div, .card-wind hr{ 
+    border-color: rgb(135, 196, 142);
+}
+.weapons{
+    background-color:#212633;
+    height: 130vh;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card-wep-frost{
+    width: 50%;
+    display: flex;
+    height: 280px;
+    flex-wrap: wrap;
+    color: white;
+    border: solid black;
+    box-shadow:  rgb(148, 17, 17) 0px 0px 10px;
+    margin: 10px;
+}
+.wep-card{
+    width: 45%;
+    display: flex;
+    height: 280px;
+    flex-wrap: wrap;
+    color: white;
+    border: solid black;
+    box-shadow:  rgb(148, 17, 17) 0px 0px 10px;
+    margin: 10px;
+}
+.weapons img{
+    width: 45%;
+    height: 200px;
+    margin-top: 30px;
+    object-fit: contain;
+
+}
+.wep-top{
+    width:100%  ;
+    height: 210px;
+    display: flex;
+    margin-bottom: 20px;
+    z-index: 10;
+    background-color: #181a1f;
+}
+.wep-midtop{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: white;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 4%;
+    height: 130%;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #181a1f;
+}
+.wep-leftop{
+    width: 300px;
+    background-color: #181a1f;
+}
+.wep-rightop{
+    width: 300px;
+    justify-content: right;
+    background-color: #181a1f;
+}
+.wep-bot{
+    width: 100%;
+    height: 43px;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2e2828;
+}
+.bot-left{
+    width: 40%;
+    text-align: start;
+    background-color: #8a7277;
+    padding: 10px 10px;
+}
+.bot-right{
+    width: 40%;
+    text-align: end;
+    background-color: #b81034;
+    padding: 10px 10px;
+}
+.bot p{
+    background-color: #b81034;
+}
+.flame{
+    background-color: rgb(102, 155, 23);
+}
+.twisted-puppets{
+    background-color: black;
+}
+.iron{
+    background-color:#aaa9ad ;
+}
+.scrap{
+    background-color: rgb(184, 141, 35);
+}
+.thunder{
+    background-color: rgb(230, 234, 142);
+    color: black;
+}
+.surge{
+    color: black;
+    background-color:rgb(148, 84, 241);
+}
+.wind{
+    background-color:rgb(135, 196, 142);
+    color: black;
+}
+.spectr{
+    color: black;
+    background-color:rgb(213, 213, 213);
+}
+.wep-midtopmuda{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: white;
+    width: 10%;
+    text-align: center;
+    padding-left: 2.5%;
+    height: 130%;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #181a1f;
+    
+}
+.wep-text{
+
+}
+.wep-text h2{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #11151d;
+    color: white;
+    border-radius: 25px;
+}
